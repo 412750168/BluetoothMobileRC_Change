@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Bluetooth Chat</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="service_timeout">The device connection timeout!</string>
+    <string name="wifi_state_error">WIFI network has been disconnect, please check！</string>
+    <string name="network_not_ready">WIFI network has been disconnect!</string>
+    <string name="server_used">The servers has been connected to other client, please connect to other severs！</string>
+    <string name="server_not_ready">Unable to connect to the device, please check the network condition whether normal or not!</string>
+    <string name="service_query_failed">Failed to add, please check the network condition whether normal or not!</string>
+    <string name="exit_prompt">Please press the EXIT again</string>
+    <string name="input">Input</string>
+    <string name="input_ip">Please input the IP for device</string>
+    <string name="input_ip_error">Please enter the correct IP!</string>
+    <string name="same_ip">This IP does not exist, please input again!</string>
+    <string name="ip_no_exist">This IP can not connecting, please input again!</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="searching">Searching devices</string>
+    <string name="connecting">Connecting to device</string>
+    <string name="pleasewait">please wait …</string>
+    <string name="edit_dialog_add_str">add</string>
+    <string name="edit_dialog_delete_str">delete</string>
+    <string name="key_0">0</string>
+    <string name="key_1">1</string>
+    <string name="key_2">2</string>
+    <string name="key_3">3</string>
+    <string name="key_4">4</string>
+    <string name="key_5">5</string>
+    <string name="key_6">6</string>
+    <string name="key_7">7</string>
+    <string name="key_8">8</string>
+    <string name="key_9">9</string>
+    <string name="key_star">*</string>
+    <string name="key_pound">#</string>
+    <string name="key_A">A</string>
+    <string name="key_B">B</string>
+    <string name="key_C">C</string>
+    <string name="key_D">D</string>
+    <string name="key_E">E</string>
+    <string name="key_F">F</string>
+    <string name="key_G">G</string>
+    <string name="key_H">H</string>
+    <string name="key_I">I</string>
+    <string name="key_J">J</string>
+    <string name="key_K">K</string>
+    <string name="key_L">L</string>
+    <string name="key_M">M</string>
+    <string name="key_N">N</string>
+    <string name="key_O">O</string>
+    <string name="key_P">P</string>
+    <string name="key_Q">Q</string>
+    <string name="key_R">R</string>
+    <string name="key_S">S</string>
+    <string name="key_T">T</string>
+    <string name="key_U">U</string>
+    <string name="key_V">V</string>
+    <string name="key_W">W</string>
+    <string name="key_X">X</string>
+    <string name="key_Y">Y</string>
+    <string name="key_Z">Z</string>
+    <string name="key_comma">,</string>
+    <string name="key_period">.</string>
+    <string name="key_alt">alt</string>
+    <string name="key_shift">shift</string>
+    <string name="key_tab">tab</string>
+    <string name="key_space">space</string>
+    <string name="key_sym">sym</string>
+    <string name="key_explorer">explorer</string>
+    <string name="key_envelope">envelope</string>
+    <string name="key_enter">enter</string>
+    <string name="key_del">del</string>
+    <string name="key_grave">`</string>
+    <string name="key_minus">-</string>
+    <string name="key_equals">=</string>
+    <string name="key_left_bracket">[</string>
+    <string name="key_right_bracket">]</string>
+    <string name="key_backslash">\\</string>
+    <string name="key_semicolon">;</string>
+    <string name="key_apostrophe">\'</string>
+    <string name="key_slash">/</string>
+    <string name="key_at">\@</string>
+    <string name="key_num">num</string>
+    <string name="key_headsethook">headsethook</string>
+    <string name="key_plus">+</string>
+    <string name="fastforward">快进</string>
+    <string name="fastreverse">快退</string>
+    <string name="reverse">上一首</string>
+    <string name="sstart">播放/停止</string>
+    <string name="forward">下一首</string>
+    <string name="key_exclamation">!</string>
+    <string name="key_question_mark">\?</string>
+    <string name="dialog_title">"Please wait!"</string>
+	<string name="dialog_message">"Searching devices!!! (If long time not search equipment, please make sure that the two devices in the same network)"</string>
+</resources>

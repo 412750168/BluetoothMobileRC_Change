@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".Activity_PointerKeyboard" >
+    
+	<Button
+        android:id="@+id/Keyboard_Button_Pointer"
+        android:layout_width="720dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/keyboard_pointer"
+    />
+    
+    <RelativeLayout
+        android:layout_width="720dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+    	android:paddingBottom="10dp"
+        >
+	    <Button
+	        android:id="@+id/Keyboard_Button_Mouse_Left"
+	        android:layout_width="110dp"
+	        android:layout_height="110dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginLeft="10dp"
+	        android:background="@drawable/keyboard_mouse_left"
+	    	/>
+	    <Button
+	        android:id="@+id/Keyboard_Button_IR"
+	        android:layout_width="110dp"
+	        android:layout_height="110dp"
+	        android:layout_centerHorizontal="true"
+	        android:background="@drawable/keyboard_ir"
+	    	/>
+	    <Button
+	        android:id="@+id/Keyboard_Button_Mouse_Right"
+	        android:layout_width="110dp"
+	        android:layout_height="110dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="10dp"
+	        android:background="@drawable/keyboard_mouse_right"
+	    	/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/for_keyboard"
+        android:layout_width="720dp"
+        android:layout_height="470dp"
+        android:gravity="bottom"
+        />
+</LinearLayout>

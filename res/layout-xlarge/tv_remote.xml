@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|center"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/TV_Channel_1"
+                style="@style/TV_Remote_Channel_Button_XLarge"
+                android:background="@drawable/tv_remote_figure_1"
+                />
+            <Button
+                android:id="@+id/TV_Channel_2"
+                style="@style/TV_Remote_Channel_Button_XLarge"
+                android:background="@drawable/tv_remote_figure_2"
+                />
+            <Button
+                android:id="@+id/TV_Channel_3"
+                style="@style/TV_Remote_Channel_Button_XLarge"
+                android:background="@drawable/tv_remote_figure_3"
+                />
+            <Button
+                android:id="@+id/TV_Channel_Switch"
+                style="@style/TV_Remote_Channel_Button_XLarge"
+                android:background="@drawable/tv_remote_button_switch"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/TV_Channel_4"
+                style="@style/TV_Remote_Channel_Button_XLarge"
+                android:background="@drawable/tv_remote_figure_4"
+                />
+            <Button
+                android:id="@+id/TV_Channel_5"
+                style="@style/TV_Remote_Channel_Button_XLarge"
+                android:background="@drawable/tv_remote_figure_5"
+                />
+            <Button
+                android:id="@+id/TV_Channel_6"
+                style="@style/TV_Remote_Channel_Button_XLarge"
+                android:background="@drawable/tv_remote_figure_6"
+                />
+            <Button
+                android:id="@+id/TV_Channel_0"
+                style="@style/TV_Remote_Channel_Button_XLarge"
+                android:background="@drawable/tv_remote_figure_0"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/TV_Channel_7"
+                style="@style/TV_Remote_Channel_Button_XLarge"
+                android:background="@drawable/tv_remote_figure_7"
+                />
+            <Button
+                android:id="@+id/TV_Channel_8"
+                style="@style/TV_Remote_Channel_Button_XLarge"
+                android:background="@drawable/tv_remote_figure_8"
+                />
+            <Button
+                android:id="@+id/TV_Channel_9"
+                style="@style/TV_Remote_Channel_Button_XLarge"
+                android:background="@drawable/tv_remote_figure_9"
+                />
+            <Button
+                android:id="@+id/TV_Channel_Home"
+                style="@style/TV_Remote_Channel_Button_XLarge"
+                android:background="@drawable/tv_remote_button_home"
+                />
+        </LinearLayout>
+        
+    </LinearLayout>
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="34dp"
+	    >
+        <RelativeLayout
+            android:layout_width="134dp"
+            android:layout_height="328dp"
+            android:layout_toLeftOf="@id/TV_Remote_Button_OK"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/tv_remote_channel" >
+            <Button 
+                android:id="@+id/TV_Remote_Button_Channel_Up"
+                style="@style/TV_Remote_Channel_and_Volume_XLarge"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/tv_remote_button_channel_up" />
+            <Button
+                android:id="@+id/TV_Remote_Button_Channel_Down"
+                style="@style/TV_Remote_Channel_and_Volume_XLarge"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/tv_remote_button_channel_down" />
+        </RelativeLayout>
+	    <Button
+            android:id="@+id/TV_Remote_Button_OK"
+            android:layout_width="320dp"
+            android:layout_height="280dp"
+            android:background="@drawable/tv_remote_button_ok"
+            android:layout_centerInParent="true"
+            />
+	    <RelativeLayout
+            android:layout_width="134dp"
+            android:layout_height="328dp"
+            android:layout_toRightOf="@id/TV_Remote_Button_OK"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/tv_remote_volume" >
+            <Button 
+                android:id="@+id/TV_Remote_Button_Volume_Plus"
+                style="@style/TV_Remote_Channel_and_Volume_XLarge"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/tv_remote_button_volume_plus" />
+            <Button
+                android:id="@+id/TV_Remote_Button_Volume_Minus"
+                style="@style/TV_Remote_Channel_and_Volume_XLarge"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/tv_remote_button_volume_minus" />
+        </RelativeLayout>
+	</RelativeLayout>
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="34dp" >
+	    <Button
+	        android:id="@+id/TV_Remote_Button_Menu"
+	        style="@style/TV_Remote_Bottom_Button_XLarge"
+	        android:layout_alignParentLeft="true"
+	        android:background="@drawable/tv_remote_button_menu" />
+	    <Button
+	        android:id="@+id/TV_Remote_Button_Keyboard"
+	        style="@style/TV_Remote_Bottom_Button_XLarge"
+	        android:layout_centerHorizontal="true"
+	        android:background="@drawable/tv_remote_button_keyboard" />
+	    <Button
+	        android:id="@+id/TV_Remote_Button_Back"
+	        style="@style/TV_Remote_Bottom_Button_XLarge"
+	        android:layout_alignParentRight="true"
+	        android:background="@drawable/tv_remote_button_back" />
+	</RelativeLayout>
+</LinearLayout>

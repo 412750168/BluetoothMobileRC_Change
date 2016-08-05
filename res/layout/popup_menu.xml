@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_menu_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/Popup_Menu_Button_A"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch To A"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/Popup_Menu_Button_B"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch To B"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/Popup_Menu_Button_C"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch To C"
+        android:textSize="20sp"
+        />"
+</LinearLayout>

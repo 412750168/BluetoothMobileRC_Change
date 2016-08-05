@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:id="@+id/ir_remote_layout_head"
+        android:layout_alignParentTop="true">
+    	
+        <Button 
+            android:id="@+id/Ir_Remote_Button_Power"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ir_remote_button_power"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"/>
+        
+        <TextView
+            android:id="@+id/Ir_Remote_TextView_ServerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            />
+        
+        <Button 
+            android:id="@+id/Ir_Remote_Button_Home"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ir_remote_button_home"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/ir_remote_layout_chest"
+        android:layout_width="192dp"
+        android:layout_height="192dp"
+        android:layout_below="@id/ir_remote_layout_head"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ir_remote_circle" >
+		
+        <Button
+            android:id="@+id/Ir_Remote_Button_OK"
+            android:layout_width="99dp"
+            android:layout_height="83dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ir_remote_button_ok"
+            />
+        <Button
+            android:id="@+id/Ir_Remote_Button_Up"
+            android:layout_width="67dp"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/ir_remote_button_up"
+            />
+        <Button
+            android:id="@+id/Ir_Remote_Button_Down"
+            android:layout_width="67dp"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ir_remote_button_down"
+            />
+        <Button
+            android:id="@+id/Ir_Remote_Button_Left"
+            android:layout_width="48dp"
+            android:layout_height="67dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/ir_remote_button_left"
+            />
+        <Button
+            android:id="@+id/Ir_Remote_Button_Right"
+            android:layout_width="48dp"
+            android:layout_height="67dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ir_remote_button_right"
+            />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/ir_remote_layout_waist"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/ir_remote_layout_chest"
+        >
+        
+        <Button
+            android:id="@+id/Ir_Remote_Button_Menu"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ir_remote_button_menu"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp" />
+        
+        <Button
+            android:id="@+id/Ir_Remote_Button_Keyboard"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ir_remote_button_keyboard"
+            android:layout_centerHorizontal="true" />
+        
+        <Button
+            android:id="@+id/Ir_Remote_Button_Back"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ir_remote_button_back"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/ir_remote_layout_leg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ir_remote_layout_waist"
+        >
+        <Button
+            android:id="@+id/Ir_Remote_Button_Volume_Down"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ir_remote_button_volume_down"
+            />
+        
+         <Button
+            android:id="@+id/Ir_Remote_Button_Joystick"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ir_remote_button_joystick"
+            android:layout_centerHorizontal="true" />
+        
+        <Button
+            android:id="@+id/Ir_Remote_Button_Volume_Up"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ir_remote_button_volume_up"
+            />
+    </RelativeLayout>
+    
+</RelativeLayout>

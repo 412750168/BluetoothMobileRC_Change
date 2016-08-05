@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ClickableViewAccessibility">
+        <ignore path="src/zzl/bestidear/BluetoothChat/Activity/Activity_PointerKeyboard.java" />
+    </issue>
+    <issue id="NewApi" severity="ignore">
+        <ignore path="src/com/example/android/BluetoothChat/BluetoothChat.java" />
+        <ignore path="src/com/example/android/BluetoothChat/DeviceListActivity.java" />
+        <ignore path="src/zzl/bestidear/BluetoothChat/Activity/Activity_IR_Remote.java" />
+        <ignore path="src/zzl/bestidear/BluetoothChat/Activity/Activity_PointerKeyboard.java" />
+        <ignore path="src/zzl/bestidear/BluetoothChat/Activity/DeviceListActivity.java" />
+        <ignore path="src/zzl/bestidear/BluetoothChat/Service/NetCmdProcessingThread.java" />
+        <ignore path="src/zzl/bestidear/BluetoothChat/Service/NetCore.java" />
+    </issue>
+</lint>

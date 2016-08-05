@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">	
+	<style name="btn_style">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_margin">3dp</item>
+		<item name="android:textColor">@color/btn_text_color</item>
+		<item name="android:textStyle">bold</item>	
+	</style>
+	
+	<style name="TV_Remote_Channel_Button_Normal">
+	    <item name="android:layout_width">72dp</item>
+	    <item name="android:layout_height">72dp</item>
+	    <item name="android:layout_margin">4dp</item>
+	</style>
+	<style name="TV_Remote_Channel_and_Volume_Normal">
+	    <item name="android:layout_width">58dp</item>
+	    <item name="android:layout_height">59dp</item>
+	    <item name="android:layout_centerHorizontal">true</item>
+	</style>
+	<style name="TV_Remote_Bottom_Button_Normal">
+	    <item name="android:layout_width">72dp</item>
+	    <item name="android:layout_height">72dp</item>
+	</style>
+	
+	<style name="TV_Remote_Channel_Button_Large">
+	    <item name="android:layout_width">110dp</item>
+	    <item name="android:layout_height">110dp</item>
+	    <item name="android:layout_margin">5dp</item>
+	</style>
+	<style name="TV_Remote_Channel_and_Volume_Large">
+	    <item name="android:layout_width">89dp</item>
+	    <item name="android:layout_height">90dp</item>
+	    <item name="android:layout_centerHorizontal">true</item>
+	</style>
+	<style name="TV_Remote_Bottom_Button_Large">
+	    <item name="android:layout_width">110dp</item>
+	    <item name="android:layout_height">110dp</item>
+	</style>
+	
+	<style name="TV_Remote_Channel_Button_XLarge">
+	    <item name="android:layout_width">166dp</item>
+	    <item name="android:layout_height">166dp</item>
+	    <item name="android:layout_margin">7dp</item>
+	</style>
+	<style name="TV_Remote_Channel_and_Volume_XLarge">
+	    <item name="android:layout_width">134dp</item>
+	    <item name="android:layout_height">136dp</item>
+	    <item name="android:layout_centerHorizontal">true</item>
+	</style>
+	<style name="TV_Remote_Bottom_Button_XLarge">
+	    <item name="android:layout_width">166dp</item>
+	    <item name="android:layout_height">166dp</item>
+	</style>
+	
+	 <style name="fontStyle_main" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#F8F8FF</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+</resources>
